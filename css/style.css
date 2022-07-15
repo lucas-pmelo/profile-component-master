@@ -1,0 +1,250 @@
+body {
+    background-color: #0C0B0B;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    background-color: #0F0E0E;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 50vh;
+    margin-top: -25vh;
+    width: 100vh;
+    margin-left: -50vh;
+}
+
+.top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 25px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 70px;
+    margin-top: 45px;
+}
+.name {
+    color: #B7B7B7;
+    margin-top: 75px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.user {
+    color: #B7B7B7;
+    margin-top: 45px;
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 180px;
+    font-size: 15px;
+}
+
+.button {
+    background-color: #1d1b1b;
+    color: #B7B7B7;
+    border-style: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    margin-top: 70px;
+    margin-right: 75px;
+    margin-left: auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.itens {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    color: #B7B7B7;
+    background-color: #046313;
+    width: 25%;
+    height: 50%;
+    border-radius: 10px;
+    margin-left: 75px;
+    margin-right: 10px;
+}
+
+.projects:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.stars {
+    color: #B7B7B7;
+    background-color: #044A7D;
+    width: 25%;
+    height: 50%;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.stars:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.followers {
+    color: #B7B7B7;
+    background-color: #725200;
+    width: 25%;
+    height: 50%;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 75px;
+}
+
+.followers:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+.t {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.n {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+    .img{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .user{
+        margin-left: 210px;
+    }
+    .t {
+        font-size: 20px;
+    }
+    .n {
+        font-size: 34px;
+    }
+    .button {
+        margin-right: 100px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 100%;
+        margin-top: 0;
+        width: 100%;
+        margin-left: 0;
+
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    .img {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .name {
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .user {
+        margin-top: 7px;
+        margin-left: 0px;
+        position: relative;
+    }
+    .button {
+        position: relative;
+        margin-top: 10px;
+        margin-left: 75px;  
+        padding: 0;
+        font-size: 15px;
+        width: 75px;
+        height: 35px;
+    }
+    .itens {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects {
+        width: 50%;
+        height: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 5%;
+        padding: 0.3rem;
+        padding-bottom: 0.5rem;
+    }
+    .stars {
+        width: 50%;
+        height: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 5%;
+        padding: 0.3rem;
+        padding-bottom: 0.5rem;
+    }
+    .followers {
+        width: 50%;
+        height: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0.3rem;
+        padding-bottom: 0.5rem;
+    }
+    .t {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .n {
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+}
